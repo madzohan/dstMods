@@ -4,25 +4,10 @@ local UIAnim = require "widgets/uianim"
 
 TUNING.WX78_MOVESPEED_CHIPBOOSTS = {0.00, 0.25, 0.40, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50}
 TUNING.WX78_MAXELECTRICCHARGE = 24
-TUNING.WX78_CHARGE_REGENTIME = GetModConfigData("_WX78_CHARGE_REGENTIME") or 90
-TUNING.WX78_HEALTH = GetModConfigData("_WX78_BASE_HEALTH") or 125
-TUNING.WX78_HUNGER = GetModConfigData("_WX78_BASE_HUNGER") or 125
-TUNING.WX78_SANITY = GetModConfigData("_WX78_BASE_SANITY") or 150
-
--- if TheWorld ~= nil and not TheWorld.ismastersim then 
---     module_defs = require("wx78_moduledefs").module_definitions
---     num_wide = math.ceil(math.sqrt(#module_defs))
---     for y = 0, num_wide - 1 do
---             for x = 0, num_wide - 1 do
---                 def = module_defs[(y*num_wide) + x + 1]
---                 AddPrefabPostInit("wx78module_"..def.name, function(inst)
---                     if inst.components.finiteuses then
---                         inst:RemoveComponent("finiteuses")
---                     end
---                 end)
---             end
---     end
--- end
+TUNING.WX78_CHARGE_REGENTIME = GetModConfigData("_WX78_CHARGE_REGENTIME")   -- 90
+TUNING.WX78_HEALTH = GetModConfigData("_WX78_BASE_HEALTH")                  -- 125
+TUNING.WX78_HUNGER = GetModConfigData("_WX78_BASE_HUNGER")                  -- 125
+TUNING.WX78_SANITY = GetModConfigData("_WX78_BASE_SANITY")                  -- 150
 
 local OnUpgradeModulesListDirty = function(inst)
     if inst._parent ~= nil then
@@ -92,8 +77,6 @@ AddClassPostConstruct("widgets/upgrademodulesdisplay",function(self, ...)
     end
 
     self.battery_frame:SetPosition(0,165)
-
-
 end)
 
 AddClassPostConstruct("widgets/secondarystatusdisplays",function(self, ...)
