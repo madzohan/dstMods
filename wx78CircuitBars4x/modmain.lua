@@ -60,35 +60,35 @@ local OnUpgradeModulesListDirty = function(inst)
 end
 
 AddPrefabPostInit("player_classified",function(inst)
-	for i=7,24,1 do
-		table.insert(inst.upgrademodules,net_smallbyte(inst.GUID, "upgrademodules.mods"..i, "upgrademoduleslistdirty"))
-	end
+    for i=7,24,1 do
+        table.insert(inst.upgrademodules,net_smallbyte(inst.GUID, "upgrademodules.mods"..i, "upgrademoduleslistdirty"))
+    end
 
-	if not TheWorld.ismastersim then
-		inst.event_listeners["upgrademoduleslistdirty"]={}
-	    inst.event_listening["upgrademoduleslistdirty"]={}
-		inst:ListenForEvent("upgrademoduleslistdirty", OnUpgradeModulesListDirty)
-	end
+    if not TheWorld.ismastersim then
+        inst.event_listeners["upgrademoduleslistdirty"]={}
+        inst.event_listening["upgrademoduleslistdirty"]={}
+        inst:ListenForEvent("upgrademoduleslistdirty", OnUpgradeModulesListDirty)
+    end
 end)
 
 AddClassPostConstruct("widgets/upgrademodulesdisplay",function(self, ...)
     for i = 1, 6 do
-	    local chip_object = self:AddChild(UIAnim())
-	    chip_object:GetAnimState():SetBank("status_wx")
-	    chip_object:GetAnimState():SetBuild("status_wx")
-	    chip_object:GetAnimState():AnimateWhilePaused(false)
+        local chip_object = self:AddChild(UIAnim())
+        chip_object:GetAnimState():SetBank("status_wx")
+        chip_object:GetAnimState():SetBuild("status_wx")
+        chip_object:GetAnimState():AnimateWhilePaused(false)
 
-	    chip_object:GetAnimState():Hide("plug_on")
-	    chip_object._power_hidden = true
+        chip_object:GetAnimState():Hide("plug_on")
+        chip_object._power_hidden = true
 
-	    chip_object:MoveToBack()
-	    chip_object:Hide()
+        chip_object:MoveToBack()
+        chip_object:Hide()
 
-	    table.insert(self.chip_objectpool, chip_object)
+        table.insert(self.chip_objectpool, chip_object)
     end
 
     for i,v in ipairs(self.chip_objectpool) do
-    	v:SetPosition(0,-60)
+        v:SetPosition(0,-60)
     end
 
     self.battery_frame:SetPosition(0,165)
@@ -96,29 +96,32 @@ AddClassPostConstruct("widgets/upgrademodulesdisplay",function(self, ...)
 
 end)
 
- AddClassPostConstruct("widgets/secondarystatusdisplays",function(self, ...)     
- 	if self.upgrademodulesdisplay then
- 		self.upgrademodulesdisplay:SetPosition(self.column1,-200)
- 	end
+AddClassPostConstruct("widgets/secondarystatusdisplays",function(self, ...)
+    if self.upgrademodulesdisplay then
+        if GetModConfigData("_SEPARATE_BACKPACK_MODE") then
+            self.upgrademodulesdisplay:SetPosition(-100,-310)
+        else
+            self.upgrademodulesdisplay:SetPosition(self.column1,-200)
+        end
+    end
+end)
 
- end)
-
- local function OnAllUpgradeModulesRemoved(inst)
+local function OnAllUpgradeModulesRemoved(inst)
     SpawnPrefab("wx78_big_spark"):AlignToTarget(inst)
 
     inst:PushEvent("upgrademoduleowner_popallmodules")
 
     if inst.player_classified ~= nil then
         for i=1,24,1 do
-        	inst.player_classified.upgrademodules[i]:set(0)
+            inst.player_classified.upgrademodules[i]:set(0)
         end
     end
 end
 
- AddPrefabPostInit("wx78",function(inst)
- 	if TheWorld.ismastersim then
-	 	inst:DoTaskInTime(.1,function()
-	 		inst.components.upgrademoduleowner.onallmodulespopped = OnAllUpgradeModulesRemoved
-	 	end)
- 	end
- end)
+AddPrefabPostInit("wx78",function(inst)
+    if TheWorld.ismastersim then
+        inst:DoTaskInTime(.1,function()
+            inst.components.upgrademoduleowner.onallmodulespopped = OnAllUpgradeModulesRemoved
+        end)
+    end
+end)
