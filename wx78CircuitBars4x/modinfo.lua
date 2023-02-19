@@ -27,7 +27,15 @@ icon = "modicon.tex"
 
 server_filter_tags = {}
 
-configuration_options =
-{
-   	
+configuration_options = {
+    {
+        name = "_SEPARATE_BACKPACK_MODE",
+        label = "Backpack setting",
+        hover = "Default: Integrated",
+        options = {
+            { description = "Integrated", data = false },
+            { description = "Separate (Default)", data = true },
+        },
+        default = true
+    },
 }
