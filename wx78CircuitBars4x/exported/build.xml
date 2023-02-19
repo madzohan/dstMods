@@ -1,0 +1,152 @@
+<Build name="status_wx">
+	<Symbol name="fx">
+		<Frame duration="1" framenum="0" h="37.0" image="fx/fx-0" w="30.0" x="0.324990004301" y="2.40000510216"/>
+		<Frame duration="1" framenum="1" h="42.0" image="fx/fx-1" w="38.0" x="1.09998500347" y="1.27499401569"/>
+		<Frame duration="1" framenum="2" h="58.0" image="fx/fx-2" w="50.0" x="1.27499997616" y="0.450019985437"/>
+		<Frame duration="1" framenum="3" h="79.0" image="fx/fx-3" w="61.0" x="1.17498195171" y="-0.499992012978"/>
+		<Frame duration="1" framenum="4" h="91.0" image="fx/fx-4" w="38.0" x="-6.54987001419" y="-0.786606013775"/>
+	</Symbol>
+	<Symbol name="music_chip">
+		<Frame duration="1" framenum="0" h="128.0" image="music_chip/music_chip-0" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="1" h="128.0" image="music_chip/music_chip-1" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="2" h="128.0" image="music_chip/music_chip-2" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="3" h="128.0" image="music_chip/music_chip-3" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="4" h="82.0" image="music_chip/music_chip-4" w="51.0" x="-65.6375045776" y="0.924960970879"/>
+		<Frame duration="1" framenum="5" h="86.0" image="music_chip/music_chip-5" w="49.0" x="-63.6999969482" y="3.15000891685"/>
+		<Frame duration="1" framenum="6" h="156.0" image="music_chip/music_chip-6" w="177.0" x="-67.0484771729" y="-3.51249694824"/>
+	</Symbol>
+	<Symbol name="bee_chip">
+		<Frame duration="1" framenum="0" h="128.0" image="bee_chip/bee_chip-0" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="1" h="128.0" image="bee_chip/bee_chip-1" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="2" h="68.0" image="bee_chip/bee_chip-2" w="62.0" x="-59.6501998901" y="-2.65002799034"/>
+		<Frame duration="1" framenum="3" h="156.0" image="bee_chip/bee_chip-3" w="166.0" x="-72.9437103271" y="-3.51249694824"/>
+	</Symbol>
+	<Symbol name="movespeed2_chip">
+		<Frame duration="1" framenum="0" h="86.0" image="movespeed2_chip/movespeed2_chip-0" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="1" h="86.0" image="movespeed2_chip/movespeed2_chip-1" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="2" h="86.0" image="movespeed2_chip/movespeed2_chip-2" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="3" h="86.0" image="movespeed2_chip/movespeed2_chip-3" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="4" h="63.0" image="movespeed2_chip/movespeed2_chip-4" w="60.0" x="-60.199798584" y="-1.20002400875"/>
+		<Frame duration="1" framenum="5" h="63.0" image="movespeed2_chip/movespeed2_chip-5" w="61.0" x="-58.7997283936" y="-1.35002696514"/>
+		<Frame duration="1" framenum="6" h="156.0" image="movespeed2_chip/movespeed2_chip-6" w="176.0" x="-59.9499969482" y="-6.51253509521"/>
+	</Symbol>
+	<Symbol name="maxsanity_chip">
+		<Frame duration="1" framenum="0" h="86.0" image="maxsanity_chip/maxsanity_chip-0" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="1" h="86.0" image="maxsanity_chip/maxsanity_chip-1" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="2" h="86.0" image="maxsanity_chip/maxsanity_chip-2" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="3" h="91.0" image="maxsanity_chip/maxsanity_chip-3" w="166.0" x="-58.3750610352" y="-2.30002593994"/>
+		<Frame duration="1" framenum="4" h="64.0" image="maxsanity_chip/maxsanity_chip-4" w="65.0" x="-56.62474823" y="-0.0750079974532"/>
+		<Frame duration="1" framenum="5" h="64.0" image="maxsanity_chip/maxsanity_chip-5" w="65.0" x="-56.0748443604" y="0.425022006035"/>
+		<Frame duration="1" framenum="6" h="156.0" image="maxsanity_chip/maxsanity_chip-6" w="180.0" x="-57.9749450684" y="-6.51253509521"/>
+	</Symbol>
+	<Symbol name="maxhunger_chip">
+		<Frame duration="1" framenum="0" h="86.0" image="maxhunger_chip/maxhunger_chip-0" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="1" h="86.0" image="maxhunger_chip/maxhunger_chip-1" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="2" h="86.0" image="maxhunger_chip/maxhunger_chip-2" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="3" h="86.0" image="maxhunger_chip/maxhunger_chip-3" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="4" h="66.0" image="maxhunger_chip/maxhunger_chip-4" w="84.0" x="-49.17527771" y="-0.950004994869"/>
+		<Frame duration="1" framenum="5" h="66.0" image="maxhunger_chip/maxhunger_chip-5" w="81.0" x="-47.6377182007" y="-0.199982002378"/>
+		<Frame duration="1" framenum="6" h="156.0" image="maxhunger_chip/maxhunger_chip-6" w="180.0" x="-57.9749450684" y="-6.51253509521"/>
+	</Symbol>
+	<Symbol name="maxhealth_chip">
+		<Frame duration="1" framenum="0" h="46.0" image="maxhealth_chip/maxhealth_chip-0" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="1" h="46.0" image="maxhealth_chip/maxhealth_chip-1" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="2" h="46.0" image="maxhealth_chip/maxhealth_chip-2" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="3" h="46.0" image="maxhealth_chip/maxhealth_chip-3" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="4" h="36.0" image="maxhealth_chip/maxhealth_chip-4" w="67.0" x="-40.975189209" y="0.100008003414"/>
+		<Frame duration="1" framenum="5" h="156.0" image="maxhealth_chip/maxhealth_chip-5" w="163.0" x="-66.3250274658" y="-6.51253509521"/>
+	</Symbol>
+	<Symbol name="maxhealth2_chip">
+		<Frame duration="1" framenum="0" h="86.0" image="maxhealth2_chip/maxhealth2_chip-0" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="1" h="86.0" image="maxhealth2_chip/maxhealth2_chip-1" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="2" h="86.0" image="maxhealth2_chip/maxhealth2_chip-2" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="3" h="86.0" image="maxhealth2_chip/maxhealth2_chip-3" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="4" h="54.0" image="maxhealth2_chip/maxhealth2_chip-4" w="81.0" x="-47.599647522" y="0.800009012222"/>
+		<Frame duration="1" framenum="5" h="54.0" image="maxhealth2_chip/maxhealth2_chip-5" w="81.0" x="-47.4003982544" y="0.30002400279"/>
+		<Frame duration="1" framenum="6" h="156.0" image="maxhealth2_chip/maxhealth2_chip-6" w="180.0" x="-57.9749450684" y="-6.51253509521"/>
+	</Symbol>
+	<Symbol name="maxhunger1_chip">
+		<Frame duration="1" framenum="0" h="46.0" image="maxhunger1_chip/maxhunger1_chip-0" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="1" h="46.0" image="maxhunger1_chip/maxhunger1_chip-1" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="2" h="46.0" image="maxhunger1_chip/maxhunger1_chip-2" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="3" h="46.0" image="maxhunger1_chip/maxhunger1_chip-3" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="4" h="35.0" image="maxhunger1_chip/maxhunger1_chip-4" w="71.0" x="-42.9251861572" y="-1.20000994205"/>
+		<Frame duration="1" framenum="5" h="35.0" image="maxhunger1_chip/maxhunger1_chip-5" w="70.0" x="-42.0749053955" y="-0.75001502037"/>
+		<Frame duration="1" framenum="6" h="86.0" image="maxhunger1_chip/maxhunger1_chip-6" w="98.0" x="-56.0001373291" y="-1.02503204346"/>
+	</Symbol>
+	<Symbol name="slots">
+		<Frame duration="1" framenum="0" h="27.0" image="slots/slots-0" w="37.0" x="0.112516000867" y="-1.67499899864"/>
+		<Frame duration="1" framenum="1" h="27.0" image="slots/slots-1" w="37.0" x="0.112516000867" y="-1.67499899864"/>
+		<Frame duration="1" framenum="2" h="27.0" image="slots/slots-2" w="41.0" x="2.34999704361" y="-1.67499899864"/>
+		<Frame duration="1" framenum="3" h="27.0" image="slots/slots-3" w="37.0" x="0.112516000867" y="-1.67499899864"/>
+		<Frame duration="1" framenum="4" h="27.0" image="slots/slots-4" w="37.0" x="0.349983006716" y="-1.67499899864"/>
+		<Frame duration="1" framenum="5" h="27.0" image="slots/slots-5" w="37.0" x="0.112516000867" y="-1.77500700951"/>
+	</Symbol>
+	<Symbol name="taser_chip">
+		<Frame duration="1" framenum="0" h="86.0" image="taser_chip/taser_chip-0" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="1" h="86.0" image="taser_chip/taser_chip-1" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="2" h="86.0" image="taser_chip/taser_chip-2" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="3" h="86.0" image="taser_chip/taser_chip-3" w="141.0" x="-45.6999359131" y="-0.0749889984727"/>
+		<Frame duration="1" framenum="4" h="62.0" image="taser_chip/taser_chip-4" w="54.0" x="-55.0497665405" y="-0.525017023087"/>
+		<Frame duration="1" framenum="5" h="62.0" image="taser_chip/taser_chip-5" w="54.0" x="-57.8437194824" y="0.012524000369"/>
+		<Frame duration="1" framenum="6" h="156.0" image="taser_chip/taser_chip-6" w="177.0" x="-67.0484771729" y="-3.50001502037"/>
+	</Symbol>
+	<Symbol name="light_chip">
+		<Frame duration="1" framenum="0" h="128.0" image="light_chip/light_chip-0" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="1" h="128.0" image="light_chip/light_chip-1" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="2" h="128.0" image="light_chip/light_chip-2" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="3" h="128.0" image="light_chip/light_chip-3" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="4" h="82.0" image="light_chip/light_chip-4" w="82.0" x="-49.2377243042" y="2.71871209145"/>
+		<Frame duration="1" framenum="5" h="82.0" image="light_chip/light_chip-5" w="81.0" x="-49.0001449585" y="2.71871209145"/>
+		<Frame duration="1" framenum="6" h="153.0" image="light_chip/light_chip-6" w="166.0" x="-59.5093383789" y="-4.95001220703"/>
+	</Symbol>
+	<Symbol name="plug">
+		<Frame duration="1" framenum="0" h="28.0" image="plug/plug-0" w="18.0" x="-4.61250019073" y="0.149996995926"/>
+		<Frame duration="1" framenum="1" h="28.0" image="plug/plug-1" w="18.0" x="-4.61250019073" y="0.149996995926"/>
+	</Symbol>
+	<Symbol name="nightvision_chip">
+		<Frame duration="1" framenum="0" h="170.0" image="nightvision_chip/nightvision_chip-0" w="165.0" x="-56.2750701904" y="5.40004682541"/>
+		<Frame duration="1" framenum="1" h="170.0" image="nightvision_chip/nightvision_chip-1" w="165.0" x="-56.2750701904" y="5.40004682541"/>
+		<Frame duration="1" framenum="2" h="170.0" image="nightvision_chip/nightvision_chip-2" w="165.0" x="-56.2750701904" y="5.40004682541"/>
+		<Frame duration="1" framenum="3" h="170.0" image="nightvision_chip/nightvision_chip-3" w="165.0" x="-56.2750701904" y="5.40004682541"/>
+		<Frame duration="1" framenum="4" h="105.0" image="nightvision_chip/nightvision_chip-4" w="76.0" x="-62.050201416" y="-1.32499301434"/>
+		<Frame duration="1" framenum="5" h="105.0" image="nightvision_chip/nightvision_chip-5" w="76.0" x="-59.9374008179" y="0.675045013428"/>
+		<Frame duration="1" framenum="6" h="191.0" image="nightvision_chip/nightvision_chip-6" w="190.0" x="-60.9062194824" y="13.1686859131"/>
+	</Symbol>
+	<Symbol name="heat_chip">
+		<Frame duration="1" framenum="0" h="128.0" image="heat_chip/heat_chip-0" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="1" h="128.0" image="heat_chip/heat_chip-1" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="2" h="128.0" image="heat_chip/heat_chip-2" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="3" h="128.0" image="heat_chip/heat_chip-3" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="4" h="80.0" image="heat_chip/heat_chip-4" w="77.0" x="-53.5627365112" y="1.24648296833"/>
+		<Frame duration="1" framenum="5" h="80.0" image="heat_chip/heat_chip-5" w="78.0" x="-54.0750579834" y="-0.50624102354"/>
+		<Frame duration="1" framenum="6" h="156.0" image="heat_chip/heat_chip-6" w="166.0" x="-72.9437103271" y="-3.51249694824"/>
+	</Symbol>
+	<Symbol name="cold_chip">
+		<Frame duration="1" framenum="0" h="128.0" image="cold_chip/cold_chip-0" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="1" h="128.0" image="cold_chip/cold_chip-1" w="167.0" x="-55.4999389648" y="0.674942016602"/>
+		<Frame duration="1" framenum="2" h="74.0" image="cold_chip/cold_chip-2" w="69.0" x="-61.9502716064" y="0.212528005242"/>
+		<Frame duration="1" framenum="3" h="156.0" image="cold_chip/cold_chip-3" w="179.0" x="-66.3499298096" y="-3.51249694824"/>
+	</Symbol>
+	<Symbol name="movespeed_chip">
+		<Frame duration="1" framenum="0" h="246.0" image="movespeed_chip/movespeed_chip-0" w="190.0" x="-70.0750427246" y="0.774895012379"/>
+		<Frame duration="1" framenum="1" h="246.0" image="movespeed_chip/movespeed_chip-1" w="190.0" x="-70.0750427246" y="0.774895012379"/>
+		<Frame duration="1" framenum="2" h="246.0" image="movespeed_chip/movespeed_chip-2" w="190.0" x="-70.0750427246" y="0.774895012379"/>
+		<Frame duration="1" framenum="3" h="246.0" image="movespeed_chip/movespeed_chip-3" w="190.0" x="-70.0750427246" y="0.774895012379"/>
+		<Frame duration="1" framenum="4" h="99.0" image="movespeed_chip/movespeed_chip-4" w="72.0" x="-78.5253601074" y="2.71250200272"/>
+		<Frame duration="1" framenum="5" h="100.0" image="movespeed_chip/movespeed_chip-5" w="71.0" x="-80.024810791" y="1.86880099773"/>
+		<Frame duration="1" framenum="6" h="274.0" image="movespeed_chip/movespeed_chip-6" w="223.0" x="-68.299987793" y="-6.57490491867"/>
+	</Symbol>
+	<Symbol name="maxsanity1_chip">
+		<Frame duration="1" framenum="0" h="46.0" image="maxsanity1_chip/maxsanity1_chip-0" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="1" h="46.0" image="maxsanity1_chip/maxsanity1_chip-1" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="2" h="46.0" image="maxsanity1_chip/maxsanity1_chip-2" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="3" h="46.0" image="maxsanity1_chip/maxsanity1_chip-3" w="148.0" x="-47.7749862671" y="-0.925014019012"/>
+		<Frame duration="1" framenum="4" h="38.0" image="maxsanity1_chip/maxsanity1_chip-4" w="41.0" x="-54.8875198364" y="-0.124982997775"/>
+		<Frame duration="1" framenum="5" h="39.0" image="maxsanity1_chip/maxsanity1_chip-5" w="41.0" x="-53.7751846313" y="0.224990993738"/>
+		<Frame duration="1" framenum="6" h="103.0" image="maxsanity1_chip/maxsanity1_chip-6" w="112.0" x="-56.6249542236" y="-3.41877698898"/>
+	</Symbol>
+	<Symbol name="frame">
+		<Frame duration="1" framenum="0" h="361.0" image="frame/frame-0" w="342.0" x="110.351776123" y="120.5186462402"/>
+	</Symbol>
+</Build>
