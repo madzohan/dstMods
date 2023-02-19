@@ -2,6 +2,7 @@ GLOBAL.setmetatable(env,{__index=function(t,k) return GLOBAL.rawget(GLOBAL,k) en
 
 local UIAnim = require "widgets/uianim"
 
+TUNING.WX78_MOVESPEED_CHIPBOOSTS = {0.00, 0.25, 0.40, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50}
 TUNING.WX78_MAXELECTRICCHARGE = 24
 -- TUNING.WX78_MOVESPEED_CHIPBOOSTS={0.00, 0.25, 0.40, 0.50, 0.55, 0.58, 0.60}
 TUNING.WX78_CHARGE_REGENTIME = 3
