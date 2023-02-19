@@ -4,11 +4,10 @@ local UIAnim = require "widgets/uianim"
 
 TUNING.WX78_MOVESPEED_CHIPBOOSTS = {0.00, 0.25, 0.40, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50}
 TUNING.WX78_MAXELECTRICCHARGE = 24
--- TUNING.WX78_MOVESPEED_CHIPBOOSTS={0.00, 0.25, 0.40, 0.50, 0.55, 0.58, 0.60}
-TUNING.WX78_CHARGE_REGENTIME = 3
-TUNING.WX78_HEALTH = 200
-TUNING.WX78_HUNGER = 200
-TUNING.WX78_SANITY = 200
+TUNING.WX78_CHARGE_REGENTIME = GetModConfigData("_WX78_CHARGE_REGENTIME") or 90
+TUNING.WX78_HEALTH = GetModConfigData("_WX78_BASE_HEALTH") or 125
+TUNING.WX78_HUNGER = GetModConfigData("_WX78_BASE_HUNGER") or 125
+TUNING.WX78_SANITY = GetModConfigData("_WX78_BASE_SANITY") or 150
 
 -- if TheWorld ~= nil and not TheWorld.ismastersim then 
 --     module_defs = require("wx78_moduledefs").module_definitions

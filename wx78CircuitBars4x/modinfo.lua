@@ -38,4 +38,61 @@ configuration_options = {
         },
         default = true
     },
+    {
+        name = "_WX78_CHARGE_REGENTIME",
+        label = "WX78 Recharge Time",
+        hover = "Default: Normal",
+        options = {
+            { description = "Fastest", data = 3 },
+            { description = "Faster", data = 3*10 },
+            { description = "Fast", data = 3*20 },
+            { description = "Normal (Default)", data = 3*30 },
+            { description = "Slow", data = 3*40 },
+            { description = "Slower", data = 3*50 },
+            { description = "Slowest", data = 3*60 },
+        },
+        default = 3*30
+    },
+    {
+        name = "_WX78_BASE_HEALTH",
+        label = "WX78 Base Health",
+        hover = "Default: Normal",
+        options = {
+            { description = "Most", data = 200 },
+            { description = "More", data = 150 },
+            { description = "Normal (Default)", data = 125 },
+            { description = "Low", data = 100 },
+            { description = "Lower", data = 75 },
+            { description = "Lowest", data = 50 },
+        },
+        default = 125
+    },
+    {
+        name = "_WX78_BASE_HUNGER",
+        label = "WX78 Base Hunger",
+        hover = "Default: Normal",
+        options = {
+            { description = "Most", data = 200 },
+            { description = "More", data = 150 },
+            { description = "Normal (Default)", data = 125 },
+            { description = "Low", data = 100 },
+            { description = "Lower", data = 75 },
+            { description = "Lowest", data = 50 },
+        },
+        default = 125
+    },
+    {
+        name = "_WX78_BASE_SANITY",
+        label = "WX78 Base Sanity",
+        hover = "Default: Normal",
+        options = {
+            { description = "Most", data = 200 },
+            { description = "More", data = 175 },
+            { description = "Normal (Default)", data = 150 },
+            { description = "Low", data = 125 },
+            { description = "Lower", data = 100 },
+            { description = "Lowest", data = 75 },
+        },
+        default = 150
+    },
 }
